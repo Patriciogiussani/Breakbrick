@@ -6,7 +6,6 @@ export class Boot extends Scene {
     }
 
     preload() {
-        // Cargar cualquier asset pequeño necesario para el Preloader
         this.load.image('background', 'assets/bg.png');
     }
 

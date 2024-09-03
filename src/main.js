@@ -4,10 +4,6 @@ import { MainMenu } from './scenes/MainMenu';
 import { Game } from './scenes/Game';
 import { GameOver } from './scenes/GameOver';
 
-
-
-//  Find out more information about the Game Config at:
-//  https://newdocs.phaser.io/docs/3.70.0/Phaser.Types.Core.GameConfig
 const config = {
     type: Phaser.AUTO,
     width: 1024,
@@ -17,8 +13,8 @@ const config = {
     physics: {
         default: 'arcade',
         arcade: {
-            gravity: { y: 0 }, // Ajusta según tus necesidades
-            debug: false, // Cambia a false en producción
+            gravity: { y: 0 },
+            debug: false,
         },
     },
     scale: {
